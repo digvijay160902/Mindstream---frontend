@@ -1,0 +1,12 @@
+/* App.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Adjust the z-index as needed */
+    background-color: #56a5d3; /* Set your desired background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for visual separation */
+  }
+  

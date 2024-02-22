@@ -1,0 +1,31 @@
+.circular-link-button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e2a147;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    text-align:center;
+    line-height: 20px; 
+    text-decoration: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    animation: shadow-animation 0.5s infinite alternate; 
+    
+  }
+  
+  @keyframes shadow-animation {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+  }
+  
+  .circular-link-button:hover {
+    background-color: #c97c1f; /* Change color on hover if desired */
+  }
+  
